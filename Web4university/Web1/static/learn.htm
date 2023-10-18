@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>learn HTML</title>
+    <meta charset="utf-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style type="text/css">
+
+    </style>
+</head>
+
+<body>
+    <h1>This is a main heading</h1>
+    And this is a normal text.
+    <p>This is a paragraph...</p>
+
+        <h2>This is a subheading</h2>
+        <p>This is a paragraph in a subheading...</p>
+
+            <h3>This is a heading level 3</h3>
+                <h4>This is a heading level 4</h4>
+    
+    <h1>Headings give an outline structure to a page</h1>
+    <p>Headings are important for search engines to understand the structure and content of a page. 
+        They are also important for screen reader users.</p>
+
+    <h2>Headings should be used in order</h2>
+    HTML is like a skeleton for a web page. The default style of headings is not very pretty.
+    We will cover how to style headings in a later chapter.
+
+    <h2>Headings should be used in order</h2>
+    <p>Headings should be used in order. 
+        This is the most important heading, 
+        and should be used for the main heading of the page. 
+        This is a subheading, and should be used for the main sections of the page. 
+        You can see that the source code formating
+        is not reflected in the HTML page. 
+        To really enforec a line break<br>
+        you need to use the br tag.<br>
+    </p>
+     With the pre tag you can format the text in the source code and it will be reflected in the HTML page.
+     <pre>
+        This is now
+
+        exactly formated
+        as you
+        type it here...
+     </pre>
+     <h3>This section will show you lists</h3>
+        <p>Lists are important for structuring content. 
+            There are two types of lists in HTML: unordered lists and ordered lists. 
+            Unordered lists are for lists where the order of the items doesn't matter, 
+            for example a shopping list. 
+            Ordered lists are for lists where the order of the items does matter, 
+            for example a recipe.</p>
+        <h4>Unordered lists</h4>
+        <p>Unordered lists are created with the ul element. 
+            Each item in the list is placed inside a li element. 
+            The list items are marked with bullets (typically small black circles).</p>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <h4>Ordered lists</h4>
+        <p>Ordered lists are created with the ol element. 
+            Each item in the list is placed inside a li element. 
+            The list items are marked with numbers by default.</p>
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ol>
+        <h4>Definition lists</h4>
+        <p>Definition lists are created with the dl element. 
+            Each item in the list is placed inside a dt element (for the term being defined) or a dd element (for the definition).</p>
+        <dl>
+            <dt>Term 1</dt>
+            <dd>Definition 1</dd>
+            <dt>Term 2</dt>
+            <dd>Definition 2</dd>
+            <dt>Term 3</dt>
+            <dd>Definition 3</dd>
+        </dl>
+        <h4>Lists can be nested</h4>
+        <p>Lists can be nested inside each other. 
+            This is useful for lists of related items. 
+            For example, a list of ingredients for a recipe could be nested inside an ordered list.</p>
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2
+                <ul>
+                    <li>Item 2.1</li>
+                    <li>Item 2.2</li>
+                    <li>Item 2.3</li>
+                </ul>
+            </li>
+            <li>Item 3</li>
+        </ol>
+        <h3>This section will show you links</h3>
+        <p>Links are created with the a element. 
+            The text between the opening and closing a tags is the link text. 
+            The value of the href attribute is the URL of the link.</p>
+        <p><a href="https://www.google.com">This is a link to Google</a></p>
+        <p>Links can also be created to other pages on the same site. 
+            This is called an internal link. 
+            Internal links are useful for creating a navigation menu for a website.</p>
+        <p><a href="index.htm">This is an internal link to the index page</a></p>
+        <p>Links can also be created to other parts of the same page. 
+            This is called an anchor link. 
+            Anchor links are useful for creating a table of contents for a long page.</p>
+        <p><a href="#section1">This is an anchor link to the section 1 heading</a></p>
+        <h3>This section will show you images</h3>
+        <p>Images are created with the img element. 
+            The value of the src attribute is the URL of the image. 
+            The value of the alt attribute is the alternative text for the image. 
+            The alternative text is used by screen readers for blind users, 
+            and is also displayed if the image fails to load.</p>
+        <p><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo"></p>
+        <h3>This section will show you tables</h3>
+        <p>Tables are created with the table element. 
+            Each row in the table is created with the tr element. 
+            Each cell in the table is created with the td element. 
+            The th element is used for the table header.</p>
+        <table>
+            <tr>
+                <th>Column 1</th>
+                <th>Column 2</th>
+            </tr>
+            <tr>
+                <td>Row 1, Column 1</td>
+                <td>Row 1, Column 2</td>
+            </tr>
+            <tr>
+                <td>Row 2, Column 1</td>
+                <td>Row 2, Column 2</td>
+            </tr>       
+        </table>
+        <h3>This section will show you forms</h3>
+        <p>Forms are created with the <a href="./02.forms/index.htm">form element</a>.</p>
+
+        <h3>This section will show you semantic elements</h3>
+        
+        <p>HTML5 introduced a number of new elements that have a <a href="./04.semanticStructure/index.htm">semantic meaning</a>. 
+        </p>
+        <h3>This section will show you multimedia</h3>
+        <p>HTML5 introduced a number of new <a href="./04.semanticStructure/index.htm">elements for multimedia</a>. 
+        </p>
+        
+        <h3>This section will show you iframes</h3>
+        
+</body>
+
+</html>

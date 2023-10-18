@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>learn HTML Forms</title>
+    <meta charset="utf-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style type="text/css">
+
+    </style>
+</head>
+
+<body>
+
+        <h3>This section will show you forms</h3>
+        <p>Forms are created with the form element. 
+            The action attribute is the URL of the page that will process the form. 
+            The method attribute is either get or post. 
+            The get method is used for forms that don't change anything on the server, 
+            for example a search form. 
+            The post method is used for forms that do change something on the server, 
+            for example a login form.</p>
+        <form action="https://www.google.com/search" method="get">
+            <input type="text" name="q">
+            <input type="submit" value="Search">
+        </form>
+
+        <h3>This section will show you forms with post method</h3>
+        The post method is used for forms that do change something on the server,
+        but in this case we will produce an error 405 because 
+        the server does not accept post requests.
+        <form action="https://www.google.com/search" method="post">
+            <input type="text" name="q">
+            <input type="submit" value="Search">
+        </form>
+        
+</body>
+
+</html>

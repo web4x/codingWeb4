@@ -7,5 +7,32 @@ Start reading on the [Web4.x Wiki](https://github.com/web4x/codingWeb4/wiki/Web-
 
 ## GitHub Pages
 
+* [Configuring a publishing source for your GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+* GitHub Pages [REST API](https://docs.github.com/en/free-pro-team@latest/rest/pages/pages?apiVersion=2022-11-28#get-a-github-pages-site)
+
+
+### Web 1.0
 * [See your first Web 1.0 static web page](https://web4x.github.io/codingWeb4/Web1/static/)
+  * [Open the code](https://github.com/web4x/codingWeb4/blob/main/Web4university/Web1/static/index.htm)
 * See the deployment process under [Actions](https://github.com/web4x/codingWeb4/actions/)
+* See the [deployment process](https://github.com/web4x/codingWeb4/deployments/)
+
+### Web 2.0
+* [See your first Web 2.0 dynamic web page](https://web4x.github.io/codingWeb4/Web2/00.InTheBeginning/static)
+  * Inspect the page
+    * Chrome Devtools
+      * Elements Tab
+      * Source Tab
+        * [The HTML Page](https://web4x.github.io/codingWeb4/Web2/00.InTheBeginning/static/)
+        * [The JavaScriptCode](https://web4x.github.io/codingWeb4/Web2/00.InTheBeginning/js/jhwhScript.js)
+          * Add Breakpoints
+            * debugger; statement in Line 12
+            * Line 18
+
+
+## The magic of GitHub: press the "."-key
+
+and open "Visual Studio Code" just here in the your browser...
+opening this repository for editing.
+
+Looks already like Web4.x bu is still Web 2.x
