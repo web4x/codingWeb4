@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Your first Web 1.0 static page</title>
+    <meta charset="utf-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style type="text/css"></style>
+    <script type="text/javascript">
+        document.addDeploymentBasePath = function(absoluteFileFromDocsRoot) {
+            let baseHref = document.location.pathname;
+            let filename = document.location.pathname.split('/').pop();
+
+            baseHref = baseHref.replace("/"+filename,"");
+            //debugger;
+            document.location.href = baseHref + absoluteFileFromDocsRoot;
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Hello my Friend!</h1>
+    Nice to have you here...
+
+    <p>
+        Here you can <a href="/Web4university/Web1/static/learn.htm">learn</a> more HTML
+    </p>
+
+    <!-- 
+    <p>
+        Here you can <a href="/Web4university/Web1/static/learn.htm">learn</a> more HTML
+    <p>
+        And the pain of relative and absolute URLs: <a href="/Web4university/Web1/static/learn.htm">learn</a> works from main index.htm on Github Pages, 
+        <br>but not on other deployment locations without pain.
+    </p>
+    <p>
+        Works on the index.htm main page and on other locations <a href="./Web4university/Web1/static/learn.htm">learn</a> 
+        <br>but not in the directory /Web4university/Web1/static/<a href="/Web4university/Web1/static/index.htm">index.htm</a>
+    </p>
+    -->
+
+    <p>
+        <!-- DONT use **a href="javascript:** if not nessessary -->
+        Here you can <a href="javascript:document.addDeploymentBasePath('/Web4university/Web1/static/learn.htm')">learn</a> more HTML
+    </p>
+
+</body>
+
+</html>
