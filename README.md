@@ -32,6 +32,15 @@ TODO
           * Add Breakpoints
             * debugger; statement in Line 12
             * Line 18
+   * Console in DevTools
+     * live editing
+     * typeof word
+     * typeof word.j
+     * typeof word.h
+     * typeof word.breath
+     * typeof word.speak
+     * typeof window
+     * window
 
 
 ## The magic of GitHub: press the "."-key
