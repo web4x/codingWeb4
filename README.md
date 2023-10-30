@@ -9,6 +9,7 @@ Start reading on the [Web4.x Wiki](https://github.com/web4x/codingWeb4/wiki/Web-
 
 * [Configuring a publishing source for your GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
 * GitHub Pages [REST API](https://docs.github.com/en/free-pro-team@latest/rest/pages/pages?apiVersion=2022-11-28#get-a-github-pages-site)
+* [] How to use GitHub pages for the following lectures
 
 
 ### Web 1.0
