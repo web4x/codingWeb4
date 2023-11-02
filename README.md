@@ -22,7 +22,7 @@ TODO
 * See the [deployment process](https://github.com/web4x/codingWeb4/deployments/)
 
 ### Web 2.0
-* [See your first Web 2.0 dynamic web page](https://web4x.github.io/codingWeb4/Web4university/Web2/00.InTheBeginning/static)
+1. [See your first Web 2.0 dynamic web page](https://web4x.github.io/codingWeb4/Web4university/Web2/00.InTheBeginning/static)
   * Inspect the page
     * Chrome Devtools
       * Elements Tab
@@ -35,12 +35,32 @@ TODO
    * Console in DevTools
      * live editing
      * typeof word
+       * basic method inheritance from Object
      * typeof word.j
      * typeof word.h
      * typeof word.breath
+       * function with name
+       * ananomys functions
+       * word.breath.name
+       * function as first level citicens
+         * word.speak = breath
      * typeof word.speak
      * typeof window
      * window
+     * window.globalVariable
+     * window.document
+       * jotaView
+       * heightView
+       * widthView
+   * Script loading
+     * on <haed> DO
+     * on <body> DONT
+     * starting the script
+       * availability of HTML elements in document
+       * <body onLoad="javascript: start()"> DONT
+1. [01.TheWhatchers](https://github.com/web4x/codingWeb4/tree/main/docs/Web4university/Web2/01.TheWhatchers)
+   * Object
+   * 
 
 
 ## The magic of GitHub: press the "."-key
