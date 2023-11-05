@@ -7,16 +7,17 @@ const twoPI = 2 * Math.PI
 // DONT global variables
 //var globalVariable = "globalVariable";
 
-
+// DONT just modify objects arbitarrily
 word.j = 0.01;
 word.h = -Math.PI;
+// DONT misspelled creates new element
+// word.i = 0.01;
 
+// DONT use hard code HTML-tag IDs
 jotaView.value = word.j;
 
 
 word.speak = function breath() {
-
-  
   // DONT calculate 2 * Math.PI each time
   while (word.j < 2 * Math.PI) {
   // DONT use global reference twoPI

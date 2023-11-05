@@ -10,6 +10,9 @@ Start reading on the [Web4.x Wiki](https://github.com/web4x/codingWeb4/wiki/Web-
 * [Configuring a publishing source for your GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
 * GitHub Pages [REST API](https://docs.github.com/en/free-pro-team@latest/rest/pages/pages?apiVersion=2022-11-28#get-a-github-pages-site)
 
+TODO
+- [] How to use GitHub pages for the following lectures
+
 
 ### Web 1.0
 * [See your first Web 1.0 static web page](https://web4x.github.io/codingWeb4/)
@@ -19,7 +22,7 @@ Start reading on the [Web4.x Wiki](https://github.com/web4x/codingWeb4/wiki/Web-
 * See the [deployment process](https://github.com/web4x/codingWeb4/deployments/)
 
 ### Web 2.0
-* [See your first Web 2.0 dynamic web page](https://web4x.github.io/codingWeb4/Web4university/Web2/00.InTheBeginning/static)
+1. [See your first Web 2.0 dynamic web page](https://web4x.github.io/codingWeb4/Web4university/Web2/00.InTheBeginning/static)
   * Inspect the page
     * Chrome Devtools
       * Elements Tab
@@ -29,6 +32,35 @@ Start reading on the [Web4.x Wiki](https://github.com/web4x/codingWeb4/wiki/Web-
           * Add Breakpoints
             * debugger; statement in Line 12
             * Line 18
+   * Console in DevTools
+     * live editing
+     * typeof word
+       * basic method inheritance from Object
+     * typeof word.j
+     * typeof word.h
+     * typeof word.breath
+       * function with name
+       * ananomys functions
+       * word.breath.name
+       * function as first level citicens
+         * word.speak = breath
+     * typeof word.speak
+     * typeof window
+     * window
+     * window.globalVariable
+     * window.document
+       * jotaView
+       * heightView
+       * widthView
+   * Script loading
+     * on <haed> DO
+     * on <body> DONT
+     * starting the script
+       * availability of HTML elements in document
+       * <body onLoad="javascript: start()"> DONT
+1. [01.TheWhatchers](https://github.com/web4x/codingWeb4/tree/main/docs/Web4university/Web2/01.TheWhatchers)
+   * Object
+   * 
 
 
 ## The magic of GitHub: press the "."-key
