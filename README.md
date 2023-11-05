@@ -23,79 +23,91 @@ TODO
 
 ### Web 2.0
 1. [See your first Web 2.0 dynamic web page](https://web4x.github.io/codingWeb4/Web4university/Web2/00.InTheBeginning/static)
-  * Inspect the page
-    * Chrome Devtools
-      * Elements Tab
-      * Source Tab
-        * [The HTML Page](https://web4x.github.io/codingWeb4/Web4university/Web2/00.InTheBeginning/static/)
-        * [The JavaScriptCode](https://web4x.github.io/codingWeb4/Web4university/Web2/00.InTheBeginning/js/jhwhScript.js)
-          * Add Breakpoints
-            * debugger; statement in Line 12
-            * Line 18
-   * Console in DevTools
-     * live editing
-     * typeof word
-       * basic method inheritance from Object
-     * typeof word.j
-     * typeof word.h
-     * typeof word.breath
-       * function with name
-       * ananomys functions
-       * word.breath.name
-       * function as first level citicens
-         * word.speak = breath
-     * typeof word.speak
-     * typeof window
-     * window
-     * window.globalVariable
-     * window.document
-       * jotaView
-       * heightView
-       * widthView
-   * Script loading
-     * on <haed> DO
-     * on <body> DONT
-     * starting the script
-       * availability of HTML elements in document
-       * <body onLoad="javascript: start()"> DONT
-1. [01.TheWhatchers](https://github.com/web4x/codingWeb4/tree/main/docs/Web4university/Web2/01.TheWhatchers)
-   * Object
-   * types
-     * primitve
-       * boolean
-       * undefined
-       * number
-       * string
-       * function
-     * object
-       * relationship
-         * null
-       * collection
-   * classes
-     * constructors
-     * inheritance
-     * prototypes
- 1. [02 Heaven and Earth]()
-    * Models
-      * instances
-        * incarnations
-      * particles
-    * Views
-      * waves
-    * Metamodels
+   1. [02. Darkness and Light]()
+      * Designtime and Runtime
+      * DevTools bring Light into Darkness
+        * Elements Tab
+        * Source Tab
+           * [The HTML Page](https://web4x.github.io/codingWeb4/Web4university/Web2/00.InTheBeginning/static/)
+           * [The JavaScriptCode](https://web4x.github.io/codingWeb4/Web4university/Web2/00.InTheBeginning/js/jhwhScript.js)
+             * Add Breakpoints
+               * debugger; statement in Line 12
+               * Line 18
+        * Console in DevTools
+          * live editing
+          * typeof word
+            * basic method inheritance from Object
+          * typeof word.j
+          * typeof word.h
+          * typeof word.breath
+            * function with name
+            * ananomys functions
+            * word.breath.name
+            * function as first level citicens
+              * word.speak = breath
+          * typeof word.speak
+          * typeof window
+          * window
+          * window.globalVariable
+          * window.document
+            * jotaView
+            * heightView
+            * widthView
+          * Script loading
+            * on <haed> DO
+            * on <body> DONT
+            * starting the script
+              * availability of HTML elements in document
+              * <body onLoad="javascript: start()"> DONT
+        * Profiler 
+   1. [03. Heaven and Earth]()
+       * Metamodels
+         1. [01. Spirit and Water]()
+            * First Principle and Consequences
+              * DRY - donot repeat yourself
+              * Intention and Manifestation
+                * Class and Instance
+                  * classes
+                    * static
+                * Type and Descriptor
+                  * inheritance
+                    * extends
+                    * implements
+                  * Dependencies
+                    * uses
+                    * is used by
+                * Code and Files
+                * Model and View
+       * Models
+         * particles
+         * waves
+       * Views
+         * manifestations
+           * console
+           * HTML input
+         * binding
+           * events
+   2. [05.TheWhatchers](https://github.com/web4x/codingWeb4/tree/main/docs/Web4university/Web2/01.TheWhatchers)
+      * Object
+      * types
+        * primitve
+          * boolean
+          * undefined
+          * number
+          * string
+          * function
+        * object
+          * relationship
+            * null
+          * collection
       * classes
-        * static
+        * constructors
         * inheritance
-          * descriptor
-            * extends
-            * implements
-            * code
- 1. [00 Spirit and Water]()
-
- 1. [00 Light and Darkness]()
+        * prototypes
 
 
- 1. [00 Light and Darkness]()
+
+
 
 
  3. molecules
