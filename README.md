@@ -60,7 +60,51 @@ TODO
        * <body onLoad="javascript: start()"> DONT
 1. [01.TheWhatchers](https://github.com/web4x/codingWeb4/tree/main/docs/Web4university/Web2/01.TheWhatchers)
    * Object
-   * 
+   * types
+     * primitve
+       * boolean
+       * undefined
+       * number
+       * string
+       * function
+     * object
+       * relationship
+         * null
+       * collection
+   * classes
+     * constructors
+     * inheritance
+     * prototypes
+ 1. [02 Heaven and Earth]()
+    * Models
+      * instances
+        * incarnations
+      * particles
+    * Views
+      * waves
+    * Metamodels
+      * classes
+        * static
+        * inheritance
+          * descriptor
+            * extends
+            * implements
+            * code
+ 1. [00 Spirit and Water]()
+
+ 1. [00 Light and Darkness]()
+
+
+ 1. [00 Light and Darkness]()
+
+
+ 3. molecules
+    * modules
+      * js
+      * cjs
+      * mjs
+    * loading
+     
 
 
 ## The magic of GitHub: press the "."-key
