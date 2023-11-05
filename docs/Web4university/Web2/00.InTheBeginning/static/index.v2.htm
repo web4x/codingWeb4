@@ -24,7 +24,17 @@
     <!--
     <div class="center-bold">Drag and Drop Component to Load</div>
     -->
-    <script src="../js/jhwhScript.js" type="text/javascript"></script>
+    <!-- DONT  load scripts in the body
+                  load in the head...but only start on onLoad event
+                  load in the head but start after page is rendered (in onLoad event)
+                  load later not functions but classes
+                  start classes after loading
+     
+        Here we do it like that because if 
+            <input id="widthView" type="number" value="0">
+        is not yet rendered, the script can not access it.
+    -->
+    <script src="../js/jhwhScript.v2.js" type="text/javascript"></script>
 </body>
 
 </html>
