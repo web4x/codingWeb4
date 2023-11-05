@@ -1,6 +1,10 @@
 let word = {};
 
+// check with profiler if this makes a diffrence
+// add lesson how to profile with DevTools
 const twoPI = 2 * Math.PI
+
+// DONT global variables
 //var globalVariable = "globalVariable";
 
 
@@ -23,7 +27,6 @@ word.speak = function breath() {
     //console.log("j:", this.j);
     
     // DONT use hard coded HTML ids
-    heightView.value = word.h;
     heightView.value = word.h;
     widthView.value = word.w;
   }

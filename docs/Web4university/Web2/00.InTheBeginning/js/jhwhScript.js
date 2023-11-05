@@ -9,6 +9,7 @@ word.speak = function breath() {
     word.w = Math.sin(word.j);
     console.log("j:", this.j);
   }
+  debugger;
   this.j = 0;
 };
 word.speak();
