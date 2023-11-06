@@ -91,8 +91,8 @@ TODO
       * Object
       * types
         * primitve
-          * boolean
           * undefined
+          * boolean
           * number
           * string
           * function
@@ -100,17 +100,14 @@ TODO
           * relationship
             * null
           * collection
+        * JSON
       * classes
         * constructors
         * inheritance
         * prototypes
 
 
-
-
-
-
- 3. molecules
+ 2. molecules
     * modules
       * js
       * cjs
