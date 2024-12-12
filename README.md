@@ -3,7 +3,7 @@ learn JavaScript from scratch but with all the DOs and DONTs for Web 4x.
 
 This is called **Web4x** University because you will learn how to create Universes from scratch and expand (thus Web4**x**) them into sustainable simulations.
 
-Start reading on the [Web4.x Wiki](https://github.com/web4x/codingWeb4/wiki)
+Start reading on the [Web4x Wiki](https://github.com/web4x/codingWeb4/wiki)
 
 ## GitHub Pages
 
