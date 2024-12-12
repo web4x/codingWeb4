@@ -1,7 +1,7 @@
 # codingWeb4
-learn JavaScript from scratch but with all the DOs and DONTs for Web 4.x
+learn JavaScript from scratch but with all the DOs and DONTs for Web 4x.
 
-This is called **Web4.x** University because you will learn how to create Universes from scratch and expand (thus Web4.**x**) them into sustainable simulations.
+This is called **Web4x** University because you will learn how to create Universes from scratch and expand (thus Web4**x**) them into sustainable simulations.
 
 Start reading on the [Web4.x Wiki](https://github.com/web4x/codingWeb4/wiki)
 
@@ -121,4 +121,4 @@ TODO
 and open "Visual Studio Code" just here in the your browser...
 opening this repository for editing.
 
-Looks already like Web4.x bu is still Web 2.x
+Looks already like Web4x but is still Web 2.x
