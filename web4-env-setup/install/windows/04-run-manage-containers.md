@@ -8,10 +8,10 @@ This step covers starting the project containers, verifying they run correctly, 
 
 | Step | Action |  
 |-------|---------|  
-| 4.1   | Run the project containers with `./up` |  
-| 4.2   | Verify container startup and logs |  
-| 4.3   | Stop or restart containers |  
-| 4.4   | Next steps and troubleshooting |
+| [4.1](#41-run-the-project-containers)   | Run the project containers with `./up` |  
+| [4.2](#42-verify-container-startup-and-logs)   | Verify container startup and logs |  
+| [4.3](#43-stop-or-restart-containers)   | Stop or restart containers |  
+| [4.4](#44-next-steps-and-troubleshooting)   | Next steps and troubleshooting |
 
 ---
 
