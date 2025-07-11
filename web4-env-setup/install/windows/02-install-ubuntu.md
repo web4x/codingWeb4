@@ -1,4 +1,4 @@
-# Step 03 – Install Ubuntu (WSL) on Windows
+# Step 02 – Install Ubuntu (WSL) on Windows
 
 This step covers installing the Ubuntu Linux distribution via the Microsoft Store, setting it up, and creating your initial Linux user.
 
@@ -8,9 +8,9 @@ This step covers installing the Ubuntu Linux distribution via the Microsoft Stor
 
 | Step | Action |
 |-------|--------|
-| 2.1   | Download and install Ubuntu from Microsoft Store |
-| 2.2   | Launch Ubuntu for the first time |
-| 2.3   | Create a Linux user account |
+| 2.1   | [Download and install Ubuntu from Microsoft Store](#21-download-and-install-ubuntu) |
+| 2.2   | [Launch Ubuntu for the first time](#22-launch-ubuntu-for-the-first-time) |
+| 2.3   | [Create a Linux user account](#23-create-a-linux-user-account) |
 
 ---
 
